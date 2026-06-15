@@ -47,3 +47,4 @@ for i in range(len(X)):
     y_pred = 1 if y_in >= 0.5 else 0
 
     print(X[i], "->", y_pred)
+    

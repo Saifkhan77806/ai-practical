@@ -71,3 +71,4 @@ for i in range(len(X)):
     y_pred = activation(z)
 
     print(f"Input: {X[i]} -> Predicted Output: {y_pred}")
+    

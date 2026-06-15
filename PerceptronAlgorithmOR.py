@@ -52,3 +52,4 @@ for i in range(len(X)):
     z = np.dot(X[i], w) + b
     y_pred = 1 if z >= 0 else 0
     print(f"{X[i]} -> {y_pred}")
+    
